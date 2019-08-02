@@ -49,17 +49,16 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function CustomizedInputs() {
+export default function CustomizedInputs(props) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       
       <FormControl>
-        <InputLabel shrink htmlFor="bootstrap-input">
-          
+        <InputLabel shrink htmlFor="bootstrap-input">          
         </InputLabel>
-        <BootstrapInput defaultValue="Search all of BMJ Learning" id="bootstrap-input" />
+        <BootstrapInput defaultValue={props.children} id="bootstrap-input" />
       </FormControl>
       
     </div>

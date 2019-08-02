@@ -21,6 +21,16 @@ font-style: normal;
 }
 a {
     color: #424b5a;
+    cursor: pointer;
+    
+    &:hover {
+      text-decoration: none;
+      color:blue
+    }
+    &.MuiLink-underlineHover:hover {
+      text-decoration: none;
+      color:blue
+    }
 }
 body {
     background: #c1d0d8;
@@ -43,26 +53,35 @@ body {
             background-color:#424b5a;
             color: #fff;
           }
-          .MuiButtonGroup-contained {
+          .MuiButtonGroup-contained,.MuiButtonGroup-contained button{
             height:40px;
+            box-shadow: none!important;
+            color:#424b5a;
+            background-color: transparent!important;
+            .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .MuiButtonGroup-groupedContained:not(:last-child){
+              border-right:none!important;
+            }
           }
           div>button {
             &.MuiButtonBase-root.MuiButton-contained.MuiButton-root.makeStyles-button-158 {
+              //search button 
                 margin-top: 8px;
                 height: 41px;
                 border-radius: 0 5px 5px 0;
                 margin-right: 0.5rem;
               }
-              &.MuiButtonGroup-grouped.MuiButtonGroup-groupedContained{
+              &.MuiButtonGroup-grouped.MuiButtonGroup-groupedContained {
                 top:3px;
                 position: relative;
                 height:41px;
               }
           }
     }
-    .nav-links {
+    .nav-links,.login-links {
         a{            
             color: #424b5a;
+            margin: 0 8px 0 0;
+            font-family: 'interfaceregular';
         }
     }
 }
@@ -74,6 +93,15 @@ body {
     font-family: 'interfaceregular';
     font-weight: bold;
 
+    .MuiButtonGroup-contained,.MuiButtonGroup-contained button{
+      box-shadow: none!important;
+      color:#424b5a;
+      background-color: transparent!important;
+      margin-top:20px;
+      .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .MuiButtonGroup-groupedContained:not(:last-child){
+        border-right:none!important;
+      }
+    }
     #bootstrap-input,.search-courses #bootstrap-input {  
         background: #fff;
         min-width: 300px;
@@ -87,12 +115,10 @@ body {
         background-color:#424b5a;
         color: #fff;
     }
-    .MuiButtonGroup-contained {
-        height:40px;
-    }
+    
     div>button {
-        &.MuiButtonBase-root.MuiButton-contained {
-            margin-top: 8px;
+        &.MuiButtonBase-root.MuiButton-contained.makeStyles-button-158 {
+            margin-top: 16px;
             height: 41px;
             border-radius: 0 5px 5px 0;
             margin-right: 0.5rem;
@@ -114,6 +140,10 @@ body {
 .specialty {
     padding: 24px;
     background-color: white;
+
+    .MuiPaper-rounded {
+      min-height:325px;
+    }
     h2 {        
     font-family: 'interfaceregular';
     font-weight: bold;
@@ -147,7 +177,7 @@ body {
       }
       div>button {
         &.MuiButtonBase-root.MuiButton-contained {
-            margin-top: 8px;
+            margin-top: 16px;
             height: 41px;
             border-radius: 0 5px 5px 0;
             margin-right: 0.5rem;
@@ -181,6 +211,9 @@ body {
 .recently {
     padding: 24px;
     background-color: #f2f5f7;
+    .MuiPaper-rounded {
+      min-height:409px;
+    }
     h2 {        
         font-family: 'interfaceregular';
         font-weight: bold;

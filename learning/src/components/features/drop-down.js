@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 
 const options = ['Create a merge commit', 'Browse courses', 'Rebase and merge'];
 
-export default function SplitButton() {
+export default function SplitButton(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
@@ -51,7 +51,7 @@ export default function SplitButton() {
   return (
       <Grid item xs={4} align="left">
         <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button" className={classes.root}>
-          <Button className={classes.root} onClick={handleClick}>{options[selectedIndex]}</Button>
+          <Button className={classes.root} onClick={handleClick}>{props.children}</Button>
           <Button className={classes.root}
             variant="contained"
             size="small"

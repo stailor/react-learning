@@ -1,14 +1,21 @@
 import React from 'react';
-// import AllComponents from './components/container'
 
-import Grid from './components/grid';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import LoggedOut from './components/logged-out';
+import LoggedIn from './components/logged-in';
 
 function App() {
   return (
-    <div className="App">
-      {/* <AllComponents/> */}
-      <Grid/>
-    </div>
+    
+    <BrowserRouter>
+      <div className="App">        
+        <Route path="/logged-in" exact component={LoggedIn} />
+        <Route path="/logged-out" exact component={LoggedOut} />
+
+        <LoggedOut/>
+      </div>
+    </BrowserRouter>
   );
 }
 
