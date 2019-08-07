@@ -39,73 +39,76 @@ body {
   padding: 24px;
   background: #e0e8ec !important;
 }
-/* line 43, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
+.nav .brand-logo a img {
+  max-width: 150px;
+}
+/* line 50, ../sass/styles.scss */
 .nav .nav-search #bootstrap-input, .nav .nav-search .search-courses #bootstrap-input {
   background: #fff;
-  min-width: 300px;
+  min-width: 260px;
   padding: 0 10px;
   border-radius: 3px;
   height: 40px;
   border-radius: 5px 0 0 5px;
   font-weight: normal;
 }
-/* line 52, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .nav .nav-search button, .nav .nav-search button:hover {
   background-color: #424b5a;
   color: #fff;
 }
-/* line 56, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 .nav .nav-search .MuiButtonGroup-contained, .nav .nav-search .MuiButtonGroup-contained button {
   height: 40px;
   box-shadow: none !important;
   color: #424b5a;
   background-color: transparent !important;
 }
-/* line 61, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .nav .nav-search .MuiButtonGroup-contained .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .nav .nav-search .MuiButtonGroup-contained .MuiButtonGroup-groupedContained:not(:last-child), .nav .nav-search .MuiButtonGroup-contained button .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .nav .nav-search .MuiButtonGroup-contained button .MuiButtonGroup-groupedContained:not(:last-child) {
   border-right: none !important;
 }
-/* line 66, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .nav .nav-search div > button.MuiButtonBase-root.MuiButton-contained.MuiButton-root.makeStyles-button-158 {
   margin-top: 8px;
   height: 41px;
   border-radius: 0 5px 5px 0;
   margin-right: 0.5rem;
 }
-/* line 73, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 .nav .nav-search div > button.MuiButtonGroup-grouped.MuiButtonGroup-groupedContained {
   top: 3px;
   position: relative;
   height: 41px;
 }
-/* line 81, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .nav .nav-links a, .nav .login-links a {
   color: #424b5a;
   margin: 0 8px 0 0;
   font-family: 'interfaceregular';
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .search-courses {
   padding: 24px;
   background: url(../images/courses.jpg) repeat-x 0 0;
   color: #424b5a;
-  height: 423px;
   font-family: 'interfaceregular';
   font-weight: bold;
 }
-/* line 96, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 .search-courses .MuiButtonGroup-contained, .search-courses .MuiButtonGroup-contained button {
   box-shadow: none !important;
   color: #424b5a;
   background-color: transparent !important;
   margin-top: 20px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .search-courses .MuiButtonGroup-contained .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .search-courses .MuiButtonGroup-contained .MuiButtonGroup-groupedContained:not(:last-child), .search-courses .MuiButtonGroup-contained button .MuiButtonGroup-grouped.MuiButtonGroup-groupedContained, .search-courses .MuiButtonGroup-contained button .MuiButtonGroup-groupedContained:not(:last-child) {
   border-right: none !important;
 }
-/* line 105, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 .search-courses #bootstrap-input, .search-courses .search-courses #bootstrap-input {
   background: #fff;
   min-width: 300px;
@@ -115,61 +118,61 @@ body {
   border-radius: 5px 0 0 5px;
   font-weight: normal;
 }
-/* line 114, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .search-courses button, .search-courses button:hover {
   background-color: #424b5a;
   color: #fff;
 }
-/* line 120, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .search-courses div > button.MuiButtonBase-root.MuiButton-contained.makeStyles-button-158 {
   margin-top: 16px;
   height: 41px;
   border-radius: 0 5px 5px 0;
   margin-right: 0.5rem;
 }
-/* line 126, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .search-courses div > button.MuiButtonGroup-grouped.MuiButtonGroup-groupedContained {
   margin: 0;
 }
-/* line 130, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .search-courses h1 {
   max-width: 70%;
   font-weight: bold;
   font-family: 'interfaceregular';
 }
-/* line 135, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 .search-courses button {
   background-color: #424b5a;
   color: #fff;
 }
 
-/* line 140, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 .specialty {
   padding: 24px;
   background-color: white;
 }
-/* line 144, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 .specialty .MuiPaper-rounded {
   min-height: 325px;
 }
-/* line 147, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .specialty h2 {
   font-family: 'interfaceregular';
   font-weight: bold;
   font-size: 2rem;
 }
 
-/* line 153, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .case-studies {
   padding: 24px;
   background-color: #f2f5f7;
 }
-/* line 157, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 .case-studies h3 {
   font-family: 'interfaceregular';
-  font-weight: bold;
+  font-weight: normal;
 }
-/* line 161, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 .case-studies #bootstrap-input, .case-studies .search-courses #bootstrap-input {
   background: #fff;
   min-width: 300px;
@@ -179,87 +182,100 @@ body {
   border-radius: 5px 0 0 5px;
   font-weight: normal;
 }
-/* line 171, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 .case-studies button, .case-studies button:hover {
   background-color: #424b5a;
   color: #fff;
 }
-/* line 175, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .case-studies .MuiButtonGroup-contained {
   height: 40px;
 }
-/* line 179, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .case-studies div > button.MuiButtonBase-root.MuiButton-contained {
   margin-top: 16px;
   height: 41px;
   border-radius: 0 5px 5px 0;
   margin-right: 0.5rem;
 }
-/* line 185, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 .case-studies div > button.MuiButtonGroup-grouped.MuiButtonGroup-groupedContained {
   margin: 0;
 }
-/* line 189, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .case-studies h3 {
   font-family: 'interfaceregular';
 }
 
-/* line 193, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 .recommended {
   padding: 24px;
   background-color: #f2f5f7;
 }
-/* line 196, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .recommended h2 {
   font-family: 'interfaceregular';
   font-weight: bold;
   font-size: 2rem;
 }
 
-/* line 202, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .why {
   padding: 24px;
   background-color: #fff;
 }
-/* line 205, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 .why h2 {
   font-family: 'interfaceregular';
   font-weight: bold;
   font-size: 2rem;
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .recently {
   padding: 24px;
   background-color: #f2f5f7;
 }
-/* line 214, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 .recently .MuiPaper-rounded {
   min-height: 409px;
 }
-/* line 217, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 .recently h2 {
   font-family: 'interfaceregular';
   font-weight: bold;
   font-size: 2rem;
 }
 
-/* line 223, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .footer {
   padding: 24px;
   background-color: #e0e8ec;
   border-top: 3px solid #c2d1d9;
   font-family: 'interfaceregular';
 }
-/* line 228, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 .footer h5 {
   font-family: 'interfaceregular';
   font-weight: bold;
 }
-/* line 232, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 .footer a {
   color: #424b5a;
   clear: both;
   width: 100%;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 250, ../sass/styles.scss */
+  .search-courses h1 {
+    max-width: 100%;
+  }
+
+  /* line 253, ../sass/styles.scss */
+  .case-studies #bootstrap-input {
+    max-width: 265px;
+    min-width: 265px;
+  }
 }

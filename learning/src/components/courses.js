@@ -18,17 +18,24 @@ const classes = useStyles();
     if (props.children) {
     return (         
         
-        <Grid container className="search-courses" xs={12} sm={12} spacing={0}>
-            <h1>{props.children}</h1>
+        <Grid container className="search-courses" xs={12} sm={12}>
 
-            <Grid container xs={12} sm={12} spacing={0}>
+          <Grid container lg={12}>
+            <h1>{props.children}</h1>
+          </Grid>
+
+            <Grid container sm={12}>
               <Search>Email</Search>
               <Button className={classes.button}>
                 Search
               </Button>
               <BrowseCourses>Browse Courses</BrowseCourses>
+            </Grid>
+
+            <Grid container sm={12}>
               <BrowseCourses>Advanced Search</BrowseCourses>
             </Grid>
+
         </Grid>
 
         )

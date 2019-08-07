@@ -34,21 +34,23 @@ const Nav = () => {
 
         </Grid>
 
-        <Grid container className="brand-logo" alignItems="center" item xs={12} sm={2}>
+        <Grid container className="brand-logo" alignItems="left" item xs={12} sm={12}  md={2}>
             <Link to="/logged-out">
-                <img src={logo} alt="placeholder" width="150" />
+                <img src={logo} alt="placeholder" width="100%" />
             </Link>
         </Grid>
 
-        <Grid container className="nav-search" direction="row" justify="flex-start" alignItems="center" spacing={0} item xs={12} sm={8}>
+        <Grid container className="nav-search" direction="row" justify="flex-start" alignItems="center" spacing={0} item xs={12} sm={12}  md={8}>
             <Search></Search>
             <Button className={classes.button}>
               Search
             </Button>
+         <Grid item xs={12} sm={12}>
             <BrowseCourses>Browse courses</BrowseCourses>
+            </Grid>
         </Grid>  
 
-        <Grid container className="nav-links" direction="row" justify="flex-end" item xs={12} sm={2} spacing={0}>
+        <Grid container className="nav-links" direction="row" justify="flex-end" item  xs={12} sm={12}  md={2} spacing={0}>
           <Typography>
             <Link href={'www.google.com'}>
               My Portfolio

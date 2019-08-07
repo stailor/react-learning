@@ -15,14 +15,17 @@ const Recently = (props) => {
             </Typography>
             
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <MediaCard copy="Used by over 30,000+ doctors, nurses &amp; students worldwide.">Trused</MediaCard>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
+            <MediaCard 
+            copy="Used by over 30,000+ doctors, nurses &amp; students worldwide.">Trused</MediaCard>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <MediaCard copy="Acheive &amp; register your CPD/CME with over 100+ institutions">Recognised CPD</MediaCard>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
+            <MediaCard 
+            copy="Acheive &amp; register your CPD/CME with over 100+ institutions">Recognised CPD</MediaCard>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <MediaCard copy="Learn from our unique case studies, questionnaires, videos anywhere, anytime.">Videos &amp; audio</MediaCard>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
+            <MediaCard 
+            copy="Learn from our unique case studies, questionnaires, videos anywhere, anytime.">Videos &amp; audio</MediaCard>
           </Grid>
         </Grid>
         )
@@ -34,13 +37,13 @@ const Recently = (props) => {
               Why BMJ Learning?
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
             <MediaCard>Trused</MediaCard>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
             <MediaCard>Recognised CPD</MediaCard>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4} lg={4}>
             <MediaCard>Videos &amp; audio</MediaCard>
           </Grid>
         </Grid>

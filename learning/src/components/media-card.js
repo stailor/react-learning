@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, makeStyles, Card, CardActionArea, CardActions, CardContent, Button, Typography} from '@material-ui/core';
+import { Link, Grid, makeStyles, Card, CardActionArea, CardActions, CardContent, Button, Typography} from '@material-ui/core';
 import HomeIcon from './features/placeholder-image';
 import placeholder from '../images/sample-1.jpg';
 
@@ -36,14 +36,19 @@ export default function MediaCard(props) {
               image={props.image}
               title="Placeholder"
             />          
+            
+            <Grid container wrap="wrap" spacing={2}>
+              <Grid item>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h5" className={classes.title}>
+              <Typography variant="h5" component="h5" className={classes.title}>
                 {props.children}
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 {props.copy}
               </Typography>
             </CardContent>
+            </Grid>
+            </Grid>
           </CardActionArea>
         </Link>
         <CardActions>
@@ -64,14 +69,19 @@ export default function MediaCard(props) {
               image={props.image}
               title="Placeholder"
             />          
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h5" className={classes.title}>
-                {props.children}
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                {props.copy}
-              </Typography>
-            </CardContent>
+            
+            <Grid container wrap="nowrap" spacing={2}>
+              <Grid item>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h5" className={classes.title}>
+                    {props.children}
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    {props.copy}
+                  </Typography>
+                </CardContent>
+              </Grid>
+            </Grid>
           </CardActionArea>
         </Link>
       </Card>
@@ -89,6 +99,9 @@ else {
           src={props.link}
         />
         
+          
+        <Grid container wrap="nowrap" spacing={2}>
+          <Grid item>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h5">
             {props.children}
@@ -97,6 +110,8 @@ else {
             copy here
           </Typography>
         </CardContent>
+          </Grid>
+          </Grid>
       </CardActionArea>
       </Link>
       <CardActions>

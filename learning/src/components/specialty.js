@@ -14,41 +14,41 @@ const CardSpecialty = (props) => {
               {props.children}
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Acute Internal Medicine</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Cardiology</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Dermatology</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Gastroenterology</MediaCard>
           </Grid>        
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">General practice</MediaCard>
           </Grid>        
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Infectious Diseases</MediaCard>
           </Grid>
           
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Neurology</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Obstetrics &amp; Gynaecology</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Oncology</MediaCard>
           </Grid>          
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Opthalmology</MediaCard>
           </Grid>        
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Paediatrics</MediaCard>
           </Grid>        
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={6} md={4} lg={2}>
             <MediaCard browse="Browse all">Psychiatry</MediaCard>
           </Grid>
 
@@ -63,41 +63,41 @@ const CardSpecialty = (props) => {
                 Browse by specialty
               </Typography>
             </Grid>
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>        
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>        
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>
             
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>            
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>          
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>        
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>        
-            <Grid item xs={12} sm={2}>
+            <Grid item xs={12} sm={6} md={4} lg={2}>
               <MediaCard/>
             </Grid>
   

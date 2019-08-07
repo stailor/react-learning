@@ -20,37 +20,48 @@ const Recently = (props) => {
                 </Link>
             </Typography>
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
             <MediaCard 
             link="https://learning.bmj.com/learning/module-intro/peripheral-intravenous-cannulation.html?moduleId=10033661&searchTerm=%E2%80%9C%20peripheral%20intravenous%E2%80%9D&page=1&locale=en_GB" 
-            image="https://learning.bmj.com/classobjects/images/en-gb/chestpain_mhi_default.jpg"
+            image="https://learning.bmj.com/classobjects/images/en-gb/Catheter1_default.jpg"
             alt="man with chest pain"
-            para="Basic practical skills: peripheral intravenous cannulation"
-            ></MediaCard>
+            copy="Basic practical skills: peripheral intravenous cannulation"
+            >Basic practical skills: peripheral intravenous cannulation</MediaCard>
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
             <MediaCard 
             link="https://learning.bmj.com/learning/module-intro/stable-angina-management-primary-care.html?moduleId=5003304&searchTerm=%E2%80%9CStable%20angina%E2%80%9D&page=1&locale=en_GB"
             image="https://learning.bmj.com/classobjects/images/en-gb/chestpain_mhi_default.jpg"
             alt="man with chest pain"
-            para="Stable angina: management in primary care"
-            ></MediaCard>
+            copy="Stable angina: management in primary care"
+            >Stable angina</MediaCard>
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
             <MediaCard 
             link="https://learning.bmj.com/learning/module-intro/surgical-site-infection--a-primary-care-focus-on-prevention-and-management-.html?moduleId=10051817&searchTerm=%E2%80%9CSurgical%20site%20infection%E2%80%9D&page=1&locale=en_GB"
             image="https://learning.bmj.com/classobjects/images/en-gb/surgicaltools_mhi_default.jpg"
             alt="surgical tools"
-            
-            ></MediaCard>
+            copy="Surgical site infection: a primary care focus on prevention and management"
+            >Surgical site infection</MediaCard>
             </Grid>
-            <Grid item xs={12} sm={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
+            <MediaCard 
+            link="https://learning.bmj.com/learning/module-intro/nasogastric-tube-insertion.html?moduleId=10033856&searchTerm=%E2%80%9CBasic%20practical%20skills%E2%80%9D&page=1&locale=en_GB"
+            image="https://learning.bmj.com/classobjects/images/en-gb/ARRAY_HP_FS20SbctnsInjctn_default.jpg"
+            alt="HP swallowing"
+            copy="Basic practical skills: subcutaneous, intramuscular, and intradermal injection techniques in adults"
+            >Basic practical skills</MediaCard>
+            </Grid>
+            
+            {/* <Grid item xs={12} sm={6} md={4} lg={3}>
             <MediaCard 
             link="https://learning.bmj.com/learning/module-intro/nasogastric-tube-insertion.html?moduleId=10033856&searchTerm=%E2%80%9CBasic%20practical%20skills%E2%80%9D&page=1&locale=en_GB"
             image="https://learning.bmj.com/classobjects/images/en-gb/HPswallowing_default.jpg"
             alt="HP swallowing"
-            >Basic practical skills: subcutaneous, intramuscular, and intradermal injection techniques in adults</MediaCard>
-            </Grid>
+            copy="Basic practical skills: subcutaneous, intramuscular, and intradermal injection techniques in adultsHospital presentations: swallowing difficulties"
+            >Hospital presentations: swallowing difficulties
+            </MediaCard>
+            </Grid> */}
       </Grid>
         )
     } else {
@@ -61,16 +72,16 @@ const Recently = (props) => {
                     Recently updated
                 </Typography>
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={12} sm={6} md={4} lg={3}>
                 <MediaCard/>
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={12} sm={6} md={4} lg={3}>
                 <MediaCard/>
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={12} sm={6} md={4} lg={3}>
                 <MediaCard/>
                 </Grid>
-                <Grid item xs={12} sm={3}>
+                <Grid item xs={12} sm={6} md={4} lg={3}>
                 <MediaCard/>
                 </Grid>
           </Grid>

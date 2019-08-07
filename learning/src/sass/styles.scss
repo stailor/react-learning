@@ -39,10 +39,17 @@ body {
 .nav {
     padding: 24px;
     background:#e0e8ec !important;
+    .brand-logo {
+      a {
+        img {
+          max-width: 150px;
+        }
+      }
+    }
     .nav-search {
         #bootstrap-input,.search-courses #bootstrap-input{  
             background: #fff;
-            min-width: 300px;
+            min-width: 260px;
             padding: 0 10px;
             border-radius: 3px;
             height:40px;
@@ -89,7 +96,6 @@ body {
     padding: 24px;
     background:url(../images/courses.jpg) repeat-x 0 0; 
     color: #424b5a;
-    height:423px;
     font-family: 'interfaceregular';
     font-weight: bold;
 
@@ -156,7 +162,7 @@ body {
      
     h3 {        
         font-family: 'interfaceregular';
-        font-weight: bold;      
+        font-weight: normal;      
         }
     #bootstrap-input,.search-courses #bootstrap-input{  
         background: #fff;
@@ -238,4 +244,14 @@ body {
 }
 .MuiGrid-container .MuiGrid-item {
 // border:1px solid red;
+}
+
+@media only screen and (max-width : 768px) {
+  .search-courses h1{
+    max-width: 100%;
+  }
+  .case-studies #bootstrap-input{
+    max-width: 265px;
+    min-width: 265px;
+  }
 }

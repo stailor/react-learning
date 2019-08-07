@@ -9,11 +9,11 @@ function App() {
   return (
     
     <BrowserRouter>
-      <div className="App">        
+      <div className="App">    
+        <LoggedOut/>    
         <Route path="/logged-in" exact component={LoggedIn} />
         <Route path="/logged-out" exact component={LoggedOut} />
 
-        <LoggedOut/>
       </div>
     </BrowserRouter>
   );

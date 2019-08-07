@@ -23,8 +23,8 @@ const Recently = (props) => {
     
     if (props.children) {
     return ( 
-        <Grid container className="case-studies" item xs={12} sm={12} spacing={0}>
-              <Grid item xs={12} sm={6}>
+        <Grid container className="case-studies" item xs={12} sm={12}>
+              <Grid item xs={12} sm={6} spacing={6}>
                 <Typography variant="h3" component="h3" gutterBottom>
                   {props.children}
                 </Typography>
@@ -42,7 +42,7 @@ const Recently = (props) => {
                   Unsubscribe at anytime.
                 </Typography>
               </Grid>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6} spacing={6}>
                 <HomeIcon></HomeIcon>
               </Grid>
         </Grid>
